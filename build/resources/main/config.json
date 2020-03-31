@@ -1,0 +1,242 @@
+{
+  "levels": [
+    {"settings": {
+      "height": 1000.0,
+      "width": 1100.0,
+      "floorHeight": 350.0,
+      "finishXPos": 1000.0,
+      "targetTime": 10.0
+    },
+    "entities": {
+      "hero": {
+        "size": "tiny",
+        "xPos": 20.0,
+        "lives": 3
+      },
+      "flag": {
+        "xPos": 520.0,
+        "yPos": 245.0
+      },
+      "enemies": {
+        "enemy-1": {
+          "xPos": 300.0,
+          "strategy": "passive"
+        },
+        "enemy-2": {
+          "xPos": 500.0,
+          "strategy": "hostile"
+        },
+        "enemy-3": {
+          "xPos": 600.0,
+          "strategy": "shy"
+        },
+        "enemy-4": {
+          "xPos": 650.0,
+          "strategy": "shy"
+        },
+        "enemy-5": {
+          "xPos": 350.0,
+          "strategy": "passive"
+        },
+        "enemy-6": {
+          "xPos": 400.0,
+          "strategy": "hostile"
+        },
+        "enemy-7": {
+          "xPos": 450.0,
+          "strategy": "shy"
+        },
+        "enemy-8": {
+          "xPos": 550.0,
+          "strategy": "hostile"
+        }
+      },
+      "clouds": {
+        "cloud-1": {
+          "xPos": 200.0,
+          "yPos": 100.0,
+          "velocity": -2.1
+        },
+        "cloud-2": {
+          "xPos": 20.0,
+          "yPos": 50.0,
+          "velocity": 2.1
+        }
+      },
+      "platforms": {
+        "0": {
+          "xPos": 500.0,
+          "yPos": 280.0
+        },
+        "1": {
+          "xPos": 520.0,
+          "yPos": 280.0
+        },
+        "2": {
+          "xPos": 540.0,
+          "yPos": 280.0
+        },
+        "3": {
+          "xPos": 300.0,
+          "yPos": 280.0
+        },
+        "4": {
+          "xPos": 320.0,
+          "yPos": 280.0
+        },
+        "5": {
+          "xPos": 340.0,
+          "yPos": 280.0
+        }
+      }
+    }},
+    {"settings": {
+      "height": 1000.0,
+      "width": 1100.0,
+      "floorHeight": 350.0,
+      "finishXPos": 1000.0,
+      "targetTime": 30.0
+    },
+      "entities": {
+        "hero": {
+          "size": "tiny",
+          "xPos": 20.0,
+          "lives": 3
+        },
+        "flag": {
+          "xPos": 610.0,
+          "yPos": 165.0
+        },
+        "enemies": {
+          "enemy-1": {
+            "xPos": 300.0,
+            "strategy": "passive"
+          },
+          "enemy-2": {
+            "xPos": 500.0,
+            "strategy": "hostile"
+          },
+          "enemy-3": {
+            "xPos": 600.0,
+            "strategy": "shy"
+          }
+        },
+        "clouds": {
+          "cloud-1": {
+            "xPos": 200.0,
+            "yPos": 100.0,
+            "velocity": -2.1
+          },
+          "cloud-2": {
+            "xPos": 20.0,
+            "yPos": 50.0,
+            "velocity": 2.1
+          }
+        },
+        "platforms": {
+          "0": {
+            "xPos": 100.0,
+            "yPos": 300.0
+          },
+          "1": {
+            "xPos": 200.0,
+            "yPos": 250.0
+          },
+          "2": {
+            "xPos": 300.0,
+            "yPos": 200.0
+          },
+          "3": {
+            "xPos": 400.0,
+            "yPos": 150.0
+          },
+          "4": {
+            "xPos": 500.0,
+            "yPos": 100.0
+          },
+          "5": {
+            "xPos": 600.0,
+            "yPos": 50.0
+          },
+          "6": {
+            "xPos": 610.0,
+            "yPos": 200.0
+          }
+        }
+      }},
+    {"settings": {
+      "height": 1000.0,
+      "width": 1100.0,
+      "floorHeight": 350.0,
+      "finishXPos": 1000.0,
+      "targetTime": 10.0
+    },
+      "entities": {
+        "hero": {
+          "size": "normal",
+          "xPos": 20.0,
+          "lives": 3
+        },
+        "flag": {
+          "xPos": 650.0,
+          "yPos": 65.0
+        },
+        "enemies": {
+          "enemy-1": {
+            "xPos": 300.0,
+            "strategy": "passive"
+          },
+          "enemy-2": {
+            "xPos": 500.0,
+            "strategy": "hostile"
+          },
+          "enemy-3": {
+            "xPos": 600.0,
+            "strategy": "shy"
+          }
+        },
+        "clouds": {
+          "cloud-1": {
+            "xPos": 200.0,
+            "yPos": 100.0,
+            "velocity": -2.1
+          },
+          "cloud-2": {
+            "xPos": 20.0,
+            "yPos": 50.0,
+            "velocity": 2.1
+          }
+        },
+        "platforms": {
+          "0": {
+            "xPos": 100.0,
+            "yPos": 250.0
+          },
+          "1": {
+            "xPos": 500.0,
+            "yPos": 250.0
+          },
+          "2": {
+            "xPos": 300.0,
+            "yPos": 180.0
+          },
+          "3": {
+            "xPos": 720.0,
+            "yPos": 180.0
+          },
+          "4": {
+            "xPos": 600.0,
+            "yPos": 280.0
+          },
+          "5": {
+            "xPos": 800.0,
+            "yPos": 100.0
+          },
+          "6": {
+            "xPos": 630.0,
+            "yPos": 240.0
+          }
+        }
+      }}
+  ]
+}

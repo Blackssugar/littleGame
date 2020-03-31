@@ -1,0 +1,40 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    // Apply the application plugin to add support for building an application
+    id 'application'
+    id 'jacoco'
+}
+
+javafx {
+    version = "12.0.2"
+    modules = [ 'javafx.controls', 'javafx.media' ]
+}
+
+sourceCompatibility = '1.11'
+targetCompatibility = '1.11'
+
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+
+    // https://mvnrepository.com/artifact/de.saxsys/jfx-testrunner
+    testImplementation group: 'de.saxsys', name: 'jfx-testrunner', version: '1.1'
+    // https://stefanbirkner.github.io/system-rules/
+    testCompile 'com.github.stefanbirkner:system-rules:1.19.0'
+
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+}
+
+// Define the main class for the application
+mainClassName = 'stickman.App'
