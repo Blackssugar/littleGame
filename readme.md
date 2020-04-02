@@ -1,6 +1,6 @@
 # Stickman
 
-<img src="https://github.com/Blackssugar/littleGame/blob/master/images/game.png" width=300/>
+<img src="https://github.com/Blackssugar/littleGame/blob/master/images/game.png" width=400/>
 
 ### Project Information
 Stickman is written in Java targeting JDK 11.0.4 and adheres to the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
